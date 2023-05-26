@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Contatos - Barbearia Alura</title>
+
+        <link rel="stylesheet" href="../css/reset.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="caixa">
+                <h1>
+                    <img src="../image/logo.png" />
+                </h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main id="main-contato">
+            <form>
+                <label for="nome-completo">Nome Completo</label>
+                <input type="text" id="nome-completo" class="input-padrao" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="input-padrao"
+                placeholder="exemplo@exemplo.com" required>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" class="input-padrao"
+                placeholder="(XX) XXXXX-XXXX" required>
+                
+                <!--Name de textarea serve como um identificador para o servidor (aplicação java),
+                assim caso necessário o servidor pode capiturar este campo-->
+                <label for="mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="mensagem" class="input-padrao" cols="50" rows="10" required></textarea>
+                
+                <br>
+                
+                <fieldset>
+                    <legend>Como prefere nosso Contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" id="radio-email">
+                        E-mail</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone">
+                        Telefone</label>
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contato" 
+                        id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>
+                
+                <br>
+                
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox-label"><input type="checkbox"  class="checkbox" checked>
+                    Gostaria de receber nossas novidade por E-mail?</label>
+
+                <input type="submit" value="Enviar" class="enviar">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </main>
+		<footer>
+			<img src="../image/logo-branco.png" alt="white logo">
+			<p> &copy; Copyright Brício Estudos - 2023.</p>
+		</footer>
+    </body>
+</html>
