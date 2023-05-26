@@ -12,3 +12,10 @@
 </div>
 <br>
 <p>This repository is a fake landing page developed in HTML5 and CSS3 part 1, 2, 3 and 4. In this course, we use only HTML-5 and CSS-3 for the development of this page.</p>
+<br>
+<div>
+  <h2>Website URL</h2>
+  <a href=https://fricartem.github.io/barbearia-alura/> 
+    <img src="image/logo-branco.png"/> 
+  </a>
+</div>
