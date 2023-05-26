@@ -20,4 +20,4 @@
   </a>
 </div>
 
-<p style="color: red"><strong>OBS: Don't exist backend structure for this page</strong></p>
+<p><strong  style="color: red">OBS: Don't exist backend structure for this page</strong></p>
