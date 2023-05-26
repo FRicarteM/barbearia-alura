@@ -15,9 +15,11 @@
 <br>
 <div>
   <h2>Website URL</h2>
-  <a href=https://fricartem.github.io/barbearia-alura/> 
+  <a href="https://fricartem.github.io/barbearia-alura"/> 
     <img src="image/logo-branco.png"/> 
   </a>
+  
+  <strong> <a href="https://fricartem.github.io/barbearia-alura"/>"https://fricartem.github.io/barbearia-alura"</a></strong>
 </div>
 
 <p><strong>OBS: Don't exist backend structure for this page</strong></p>
