@@ -1,5 +1,5 @@
 <h1>Barbearia Alura</h1>
-
+<br>
 <p><strong>Study Repository:</strong></p>
 
 <div>
